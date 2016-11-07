@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMPE2800_Lab02.Ammo">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="CMPE2800_Lab02.Shape" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="3.468" />
+        <Point X="1.75" Y="5.036" />
+        <Point X="5.25" Y="5.036" />
+        <Point X="5.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAIAAAAAACBAAAABAAAAAAAEA=</HashCode>
+      <FileName>Rendering\Ammo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.DynamicShape">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAAABAAAAAgAAAAAIAAAACAAAAABAAgQIAQQA=</HashCode>
+      <FileName>Rendering\DynamicShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.Gunfire">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAMgAAAAAAAEAABAAAAABAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Rendering\Gunfire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.Level">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="CMPE2800_Lab02.Shape" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="0.75" Y="3.468" />
+        <Point X="0.75" Y="5.315" />
+        <Point X="1.25" Y="5.315" />
+        <Point X="1.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAkAIAAAAARAEAAACAAQAABAgAACAAEA=</HashCode>
+      <FileName>Rendering\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.Shape">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAgCAAAEAAAACAAEAABAAAAAAAAA=</HashCode>
+      <FileName>Rendering\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.Tank">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAQAAAAAAAAAAAAABAAhAAgBAAAAAAIAAAAA=</HashCode>
+      <FileName>Rendering\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMPE2800_Lab02.Wall">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="CMPE2800_Lab02.Shape" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="3.468" />
+        <Point X="1.25" Y="5.185" />
+        <Point X="3.25" Y="5.185" />
+        <Point X="3.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAACAAAIABgAAAAAAAA=</HashCode>
+      <FileName>Rendering\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
